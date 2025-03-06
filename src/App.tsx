@@ -1,10 +1,9 @@
-import React from "react"
-import { Navbar } from "../components/navbar"
-import { Hero } from "../components/hero"
-import { Services } from "../components/services"
-import { Contact } from "../components/contact"
-import { Footer } from "../components/footer"
-import { ThemeProvider } from "../components/theme-provider"
+import { Navbar } from "./components/navbar"
+import { Hero } from "./components/hero"
+import { Services } from "./components/services"
+import { Contact } from "./components/contact"
+import { Footer } from "./components/footer"
+import { ThemeProvider } from "./components/theme-provider"
 
 export default function App() {
   return (
