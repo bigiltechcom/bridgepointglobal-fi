@@ -7,12 +7,7 @@ import { ThemeProvider } from "./components/theme-provider"
 
 export default function App() {
   return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme="system"
-      enableSystem
-      disableTransitionOnChange
-    >
+    <ThemeProvider defaultTheme="system">
       <main className="flex min-h-screen flex-col">
         <Navbar />
         <Hero />
