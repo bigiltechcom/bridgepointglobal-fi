@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react"
+import { useState } from "react"
 import { Menu, X, Sun, Moon, Monitor } from "lucide-react"
 import { Logo } from "./logo"
 import { useTheme } from "./theme-provider"
@@ -20,10 +20,10 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
-        <div href="#home" className="flex items-center gap-2">
+        <a href="#home" className="flex items-center gap-2">
           <Logo className="h-8 w-8" />
-          <span className="text-xl font-bold text-blue-800">BridgePoint Global</span>
-        </div>
+          <span className="text-xl font-bold text-blue-800 dark:text-foreground">BridgePoint Global</span>
+        </a>
         <nav className="hidden md:flex gap-6">
           <a href="#home" className="text-sm font-medium text-foreground hover:text-primary">
             Home
