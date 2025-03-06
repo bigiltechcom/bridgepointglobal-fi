@@ -1,0 +1,30 @@
+interface LogoProps {
+  className?: string
+}
+
+export function Logo({ className = "" }: LogoProps) {
+  return (
+    <svg
+      width="40"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <rect width="40" height="40" rx="8" fill="#2a4960" />
+      <path
+        d="M20 6C12.268 6 6 12.268 6 20C6 27.732 12.268 34 20 34C27.732 34 34 27.732 34 20C34 12.268 27.732 6 20 6ZM20 8C26.617 8 32 13.383 32 20C32 26.617 26.617 32 20 32C13.383 32 8 26.617 8 20C8 13.383 13.383 8 20 8Z"
+        fill="#4f9dc1"
+      />
+      <path
+        d="M14 20H26M14 20C14 16.134 16.686 13 20 13C23.314 13 26 16.134 26 20M14 20C14 23.866 16.686 27 20 27C23.314 27 26 23.866 26 20"
+        stroke="#d9ecf4"
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <path d="M20 13V27" stroke="#d9ecf4" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  )
+}
+
