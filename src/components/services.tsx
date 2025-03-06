@@ -1,4 +1,3 @@
-import React from "react"
 import { Briefcase, Globe, Users, BarChart } from "lucide-react"
 
 export function Services() {

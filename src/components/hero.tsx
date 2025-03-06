@@ -1,4 +1,3 @@
-import React from "react"
 import { Globe, Users, Shield } from "lucide-react"
 
 export function Hero() {
