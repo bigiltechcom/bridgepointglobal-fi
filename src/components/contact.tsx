@@ -31,8 +31,8 @@ export function Contact() {
                   <div className="flex items-center space-x-3">
                     <Mail className="h-5 w-5 text-blue-600" />
                     <span className="text-gray-600">Email:</span>
-                    <a href="mailto:info@bridgepointglobal.com" className="text-blue-600 hover:underline">
-                      info@bridgepointglobal.com
+                    <a href="mailto:suldaan@bridgepointglobal.fi" className="text-blue-600 hover:underline">
+                      suldaan@bridgepointglobal.fi
                     </a>
                   </div>
                   <div className="flex items-center space-x-3">
@@ -45,49 +45,6 @@ export function Contact() {
                 </div>
               </div>
             </div>
-            <form className="mt-8 grid gap-4 md:grid-cols-2">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                  Name
-                </label>
-                <input
-                  id="name"
-                  type="text"
-                  className="mt-1 block w-full rounded-md border border-blue-200 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
-                  placeholder="Your name"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                  Email
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  className="mt-1 block w-full rounded-md border border-blue-200 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
-                  placeholder="Your email"
-                />
-              </div>
-              <div className="md:col-span-2">
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="mt-1 block w-full rounded-md border border-blue-200 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"
-                  placeholder="Your message"
-                />
-              </div>
-              <div className="md:col-span-2">
-                <button
-                  type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-md bg-gradient-to-r from-blue-600 to-blue-800 px-4 py-2 text-sm font-medium text-white shadow-md transition-colors hover:from-blue-700 hover:to-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
-                >
-                  Send Message
-                </button>
-              </div>
-            </form>
           </div>
         </div>
       </div>
